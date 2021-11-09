@@ -1,0 +1,92 @@
+body {
+  /* margin: 5vw 10vw 0px 10vw; */
+  padding: 0px;
+  background-color: #f1f1f1;
+  ]font-family: sans-serif;
+  font-size: 2rem;
+}
+h1 {
+  color: blue;
+  transition: 0.5s;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.circlea {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: -300px;
+  height: 300px;
+  width: 300px;
+  border-radius: 9999px;
+  background-color: #c3b5fd;
+  mix-blend-mode: multiply;
+  filter: blur(3rem);
+  transition: 0.5s;
+}
+.circleb {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -220px;
+  margin-left: -120px;
+  height: 250px;
+  width: 250px;
+  border-radius: 9999px;
+  background-color: hsl(347, 100%, 84%);
+  mix-blend-mode: multiply;
+  filter: blur(3rem);
+  transition: 0.5s;
+}
+.circlec {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -100px;
+  height: 220px;
+  width: 220px;
+  border-radius: 9999px;
+  background-color: #ffeba9;
+  mix-blend-mode: multiply;
+  filter: blur(3rem);
+  transition: 0.5s;
+}
+
+button {
+  margin-left: 20px;
+  width: 50px;
+  height: 40px;
+  /* background-color: blueviolet; */
+  /* padding: 20px; */
+}
+
+input {
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+  /* background-color: blueviolet; */
+  /* padding: 20px; */
+}
+
+#outputText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -150px;
+  /* background-color: #000; */
+  padding: 0.5vmin;
+}
+.inputbox {
+  display: flex;
+  width: ;
+  /* background-color: coral; */
+  width: 1300px;
+  height: 600px;
+  justify-content: center;
+  align-items: flex-end;
+}
